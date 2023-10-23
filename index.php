@@ -57,7 +57,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                     } else {
                         $response = [
                             'status' => 'error',
-                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseMessage']
+                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseCode']
                         ];  
                     }
                 } else {                    
@@ -100,7 +100,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                     } else { 
                         $response = [
                             'status' => 'error',
-                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseMessage']
+                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseCode']
                         ];  
                     }
                 } else {                    
@@ -163,7 +163,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                     } else {
                         $response = [
                             'status' => 'error',
-                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseMessage']
+                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseCode']
                         ];  
                     }
                 } else {                    
@@ -204,7 +204,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST')
                     } else {
                         $response = [
                             'status' => 'error',
-                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseMessage']
+                            'message' => 'DECLINED ' . $response_api['transactionResponse']['responseCode']
                         ];  
                     }
                 } else {                    
